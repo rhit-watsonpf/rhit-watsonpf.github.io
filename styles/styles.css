@@ -12,6 +12,10 @@ button{
     color: white;
 }
 
+img {
+    width: 25%;
+}
+
 .portfolio-desc{
     /* visibility: collapse; */
     font-size:0px;
@@ -22,5 +26,32 @@ button{
 
 .portfolio-img {
     width:0px;
-    height:0px;
+    
+}
+
+.centered {
+    text-align: center;
+}
+
+.nav p a {
+    box-sizing: border-box;
+    float: left;
+    /* display: inline-block; */
+    padding: 10px 13.991%;
+}
+
+.links p {
+    display: inline-block;
+}
+
+.pageon {
+    border: purple solid 10px;
+}
+
+.noton {
+    border: #00643c solid 10px;
+}
+
+.break {
+    clear:both;
 }
